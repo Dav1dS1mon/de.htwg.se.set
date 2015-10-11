@@ -8,8 +8,15 @@
 
 > Continuation: Yes
 
-> Update- Log:
+> Team: David Simon & Jürgen Rieg
 
-(2) In progress since October 2015
-(1) Paused since January 2014
+> Update:
+> - In progress since October 2015
+> - Paused since January 2014
 
+# To-Do-List:
+
+* Bugfix - Project
+* Update commands
+* Add documentation 
+* ...
