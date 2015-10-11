@@ -14,5 +14,5 @@
 
 > Aktueller Status: In Bearbeitung seit Oktober 2015
 
-> Status-Log: (1) Pausiert seit Februar 2013
+> Status-Log: (1) Pausiert seit Februar 2014
 
