@@ -10,6 +10,8 @@
 
 > Team: David Simon & Jürgen Rieg
 
+> Old Github-Account: ![Team4Game](https://github.com/Team4Game/de.htwg.se.setGame)
+
 > Update:
 > - In progress since October 2015
 > - Paused since January 2014
