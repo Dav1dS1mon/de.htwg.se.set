@@ -1,18 +1,15 @@
-# Information zum Projekt
+# Information to project
 
-> Zuständiger Professor: Prof. Dr. Boger
+> Authorized professor: Prof. Dr. Boger
 
-> Hochschule: HTWG
-
-> Scheinart: Projekt
-
-> Teampartner: Raina Bertolini
+> University: HTWG
 
 > Semester: WS2013/2014
 
-> Fortführung des Projektes: Ja
+> Continuation: Yes
 
-> Aktueller Status: In Bearbeitung seit Oktober 2015
+> Update- Log:
 
-> Status-Log: (1) Pausiert seit Februar 2014
+(2) In progress since October 2015
+(1) Paused since January 2014
 
