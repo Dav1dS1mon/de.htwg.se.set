@@ -10,7 +10,7 @@
 
 > Team: David Simon & Jürgen Rieg
 
-> Old Github-Account: ![Team4Game](https://github.com/Team4Game/de.htwg.se.setGame)
+> Old Github-Account: ![Team4Game](https://github.com/Team4Game/de.htwg.se.setGame) with Raina Bertolini
 
 > Update:
 > - In progress since October 2015
