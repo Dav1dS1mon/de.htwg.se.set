@@ -22,7 +22,7 @@ public final class SetGame {
 		}
 		return instance;
 	}
-	public SetGame(){
+	private SetGame(){
 		//set logging throgh log4j
 		PropertyConfigurator.configure("log4j.properties");
 		Injector injector = Guice.createInjector(new SetGameModule());
