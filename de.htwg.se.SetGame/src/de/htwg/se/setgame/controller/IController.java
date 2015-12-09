@@ -1,12 +1,11 @@
 package de.htwg.se.setgame.controller;
 
-import de.htwg.se.setgame.model.ICard;
-import de.htwg.se.setgame.model.IField;
-import de.htwg.se.setgame.model.IPack;
-import de.htwg.se.setgame.util.observer.IObservable;
-
 import java.util.List;
 import java.util.Map;
+
+import de.htwg.se.setgame.modell.ICard;
+import de.htwg.se.setgame.modell.impl.Field;
+import de.htwg.se.setgame.util.observer.IObservable;
 
 /**
  * @author raina
@@ -18,13 +17,20 @@ import java.util.Map;
  */
 public interface IController extends IObservable {
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see setgame.controller.IController#isAset(setgame.modell.impl.Card,
+	 * setgame.modell.impl.Card, setgame.modell.impl.Card, int)
+	 */
 	/**
 	 * @param cardOne card for set
 	 * @param cardTwo card for set
 	 * @param cardThree card for set
-	 * @param player which player is
+	 * @param player wich player is
 	 */
-	void isASetForController(ICard cardOne, ICard cardTwo, ICard cardThree, int player);
+	void isAsetForController(ICard cardOne, ICard cardTwo, ICard cardThree,
+			int player);
 
 	/**
 	 * @return card in game
@@ -34,19 +40,22 @@ public interface IController extends IObservable {
 	/**
 	 * @return field
 	 */
-	IField getField();
+	Field getField();
 
-
+	/**
+	 * @return true is is a set
+	 */
+	boolean areSetInField();
 
 	/**
 	 * @return return a set
 	 */
-	List<ICard> getASetInGame();
+	List<ICard> getAsetInGame();
 
 	/**
-	 * @return look trough the pack and see if still a set
+	 * @return look trougth the pack and see if still a set
 	 */
-	boolean stillSetInGame();
+	boolean stillSetInGAme();
 
 	/**
 	 * @return return the set in field
@@ -56,12 +65,12 @@ public interface IController extends IObservable {
 	/**
 	 * @return points player one
 	 */
-	int getPlayerOnePoints();
+	int geTplayerOnePoints();
 
 	/**
 	 * @return points player two
 	 */
-	int getPlayerTwoPoints();
+	int geTplayerTwoPoints();
 
 	/**
 	 * @return player one
@@ -92,31 +101,5 @@ public interface IController extends IObservable {
 	 * @return index and card in the index
 	 */
 	Map<Integer, ICard> getCardsAndTheIndexOfCardInField();
-
-	/**
-	 *
-	 * @return IPack
-	 */
-	IPack getPack();
-    List<ICard> getNewPack();
-	/**
-	 * 	save game
-	 * @return 
-	 */
-	String saveGame(int playerNumber);
-
-	/**
-	 * 	load game
-	 * @param uid 
-	 * @return 
-	 */
-	int loadGame(String uid);
-
-    /**
-    * @param level level of the difficult of KI
-    */
-    void setKIPlayer(String level);
-
-    boolean isKIPLaying();
 
 }

@@ -1,9 +1,13 @@
 package de.htwg.se.setgame.aview.gui;
 
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 
 /**
@@ -77,31 +81,28 @@ public class SetButton extends JPanel implements ActionListener {
 	 * 
 	 */
 	public void choice() {
-		    if(GUI.getController().isKIPLaying()) {
-                GUI.getController().isASetForController(GameField.getCardforSetOne(), GameField.getCardforSetTwo(), GameField.getCardforSetThree(), ONE);
-            }else {
+		
+			Object[] options = {"Player1", "Player2"};
+	 
+	        	int selected = JOptionPane.showOptionDialog(null,
+	        			"Which Player?", "Choice",JOptionPane.DEFAULT_OPTION, 
+	        			JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+	        	if(selected == ZERO) {
+	                GUI.getController().isAsetForController(GameField.getCardforSetOne(), GameField.getCardforSetTwo(), GameField.getCardforSetThree(), ONE);
+	                
+	        	} else if (selected == ONE) {
+	            	GUI.getController().isAsetForController(GameField.getCardforSetOne(), GameField.getCardforSetTwo(), GameField.getCardforSetThree(), TWO);
+	        	}	
 
-                Object[] options = {"Player1", "Player2"};
-
-                int selected = JOptionPane.showOptionDialog(null,
-                        "Which Player?", "Choice", JOptionPane.DEFAULT_OPTION,
-                        JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
-                if (selected == ZERO) {
-                    GUI.getController().isASetForController(GameField.getCardforSetOne(), GameField.getCardforSetTwo(), GameField.getCardforSetThree(), ONE);
-
-                } else if (selected == ONE) {
-                    GUI.getController().isASetForController(GameField.getCardforSetOne(), GameField.getCardforSetTwo(), GameField.getCardforSetThree(), TWO);
-                }
-            }
 	}
 	
 	/**
 	 * 
 	 */
 	public static void updateSB() {
-		Integer play1 = Integer.valueOf(GUI.getController().getPlayerOnePoints());
+		Integer play1 = Integer.valueOf(GUI.getController().geTplayerOnePoints());
 		player1.setText(play1.toString());
-		Integer play2 = Integer.valueOf(GUI.getController().getPlayerTwoPoints());
+		Integer play2 = Integer.valueOf(GUI.getController().geTplayerTwoPoints());
 		player2.setText(play2.toString());
 	}
 	
