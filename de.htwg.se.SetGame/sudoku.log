@@ -1,0 +1,155 @@
+INFO main de.htwg.se.setgame.aview.tui - Welcome to SetGame!!!! 
+Well ist not that hard to play ;)
+If you found a set please write : set PlayerOne (or PlayerTwo) and the number of the fields 1 2 3 (0-11)
+if you need a tipp plese write h
+if you want to know the solution please write s
+If you want to know the game point please write GetPoints
+if you want to solve the set with out knowing just write solve
+Set size of the fiel 3-80 size number
+For a newGame plase write nw
+Have fun!!!if you want to finisch the game please write exit
+    [0]        [1]        [2]    
+| green  |  |  red   |  | purple |  
+| ovally |  |  wave  |  |  balk  |  
+|   1    |  |   3    |  |   2    |  
+| empty  |  | empty  |  | empty  |  
+    [3]        [4]        [5]    
+| green  |  |  red   |  | purple |  
+|  balk  |  |  wave  |  |  wave  |  
+|   2    |  |   1    |  |   1    |  
+|halffill|  | empty  |  |halffill|  
+    [6]        [7]        [8]    
+| purple |  | purple |  |  red   |  
+|  balk  |  |  balk  |  |  wave  |  
+|   3    |  |   1    |  |   1    |  
+|halffill|  |halffill|  |  fill  |  
+    [9]        [10]        [11]    
+| purple |  |  red   |  | purple |  
+|  balk  |  |  balk  |  |  balk  |  
+|   2    |  |   3    |  |   1    |  
+|  fill  |  | empty  |  |  fill  |  
+
+INFO AWT-EventQueue-0 de.htwg.se.setgame.aview.tui - Welcome to SetGame!!!! 
+Well ist not that hard to play ;)
+If you found a set please write : set PlayerOne (or PlayerTwo) and the number of the fields 1 2 3 (0-11)
+if you need a tipp plese write h
+if you want to know the solution please write s
+If you want to know the game point please write GetPoints
+if you want to solve the set with out knowing just write solve
+Set size of the fiel 3-80 size number
+For a newGame plase write nw
+Have fun!!!if you want to finisch the game please write exit
+    [0]        [1]        [2]    
+|  red   |  |  red   |  | purple |  
+| ovally |  |  wave  |  |  balk  |  
+|   2    |  |   3    |  |   2    |  
+| empty  |  | empty  |  | empty  |  
+    [3]        [4]        [5]    
+| green  |  |  red   |  | purple |  
+|  balk  |  |  wave  |  |  wave  |  
+|   2    |  |   1    |  |   1    |  
+|halffill|  | empty  |  |halffill|  
+    [6]        [7]        [8]    
+| purple |  |  red   |  | green  |  
+|  balk  |  |  balk  |  |  wave  |  
+|   3    |  |   3    |  |   3    |  
+|halffill|  |halffill|  |halffill|  
+    [9]        [10]        [11]    
+| purple |  |  red   |  | purple |  
+|  balk  |  |  balk  |  |  balk  |  
+|   2    |  |   3    |  |   1    |  
+|  fill  |  | empty  |  |  fill  |  
+
+INFO main de.htwg.se.setgame.aview.tui - Welcome to SetGame!!!! 
+Well ist not that hard to play ;)
+If you found a set please write : set PlayerOne (or PlayerTwo) and the number of the fields 1 2 3 (0-11)
+if you need a tipp plese write h
+if you want to know the solution please write s
+If you want to know the game point please write GetPoints
+if you want to solve the set with out knowing just write solve
+Set size of the fiel 3-80 size number
+For a newGame plase write nw
+Have fun!!!if you want to finisch the game please write exit
+    [0]        [1]        [2]    
+|  red   |  | green  |  | green  |  
+| ovally |  |  wave  |  |  balk  |  
+|   3    |  |   2    |  |   1    |  
+| empty  |  |halffill|  |halffill|  
+    [3]        [4]        [5]    
+|  red   |  | purple |  | purple |  
+|  wave  |  |  wave  |  | ovally |  
+|   1    |  |   3    |  |   2    |  
+|  fill  |  | empty  |  |halffill|  
+    [6]        [7]        [8]    
+|  red   |  | purple |  | green  |  
+|  wave  |  |  balk  |  |  wave  |  
+|   1    |  |   1    |  |   3    |  
+| empty  |  |  fill  |  |halffill|  
+    [9]        [10]        [11]    
+| green  |  | green  |  | purple |  
+|  wave  |  |  wave  |  |  wave  |  
+|   1    |  |   3    |  |   2    |  
+|halffill|  | empty  |  |halffill|  
+
+INFO main de.htwg.se.setgame.aview.tui - Welcome to SetGame!!!! 
+Well ist not that hard to play ;)
+If you found a set please write : set PlayerOne (or PlayerTwo) and the number of the fields 1 2 3 (0-11)
+if you need a tipp plese write h
+if you want to know the solution please write s
+If you want to know the game point please write GetPoints
+if you want to solve the set with out knowing just write solve
+Set size of the fiel 3-80 size number
+For a newGame plase write nw
+Have fun!!!if you want to finisch the game please write exit
+    [0]        [1]        [2]    
+| purple |  |  red   |  | purple |  
+|  balk  |  |  wave  |  | ovally |  
+|   3    |  |   3    |  |   2    |  
+|halffill|  |halffill|  |halffill|  
+    [3]        [4]        [5]    
+|  red   |  | green  |  | green  |  
+|  balk  |  |  wave  |  | ovally |  
+|   1    |  |   3    |  |   3    |  
+|halffill|  | empty  |  |halffill|  
+    [6]        [7]        [8]    
+|  red   |  | green  |  |  red   |  
+| ovally |  | ovally |  | ovally |  
+|   3    |  |   2    |  |   1    |  
+|  fill  |  |halffill|  | empty  |  
+    [9]        [10]        [11]    
+| green  |  |  red   |  | green  |  
+| ovally |  |  balk  |  |  wave  |  
+|   3    |  |   3    |  |   2    |  
+| empty  |  |  fill  |  |  fill  |  
+
+INFO main de.htwg.se.setgame.aview.tui - Welcome to SetGame!!!! 
+Well ist not that hard to play ;)
+If you found a set please write : set PlayerOne (or PlayerTwo) and the number of the fields 1 2 3 (0-11)
+if you need a tipp plese write h
+if you want to know the solution please write s
+If you want to know the game point please write GetPoints
+if you want to solve the set with out knowing just write solve
+Set size of the fiel 3-80 size number
+For a newGame plase write nw
+Have fun!!!if you want to finisch the game please write exit
+    [0]        [1]        [2]    
+|  red   |  |  red   |  |  red   |  
+| ovally |  |  wave  |  |  balk  |  
+|   1    |  |   1    |  |   1    |  
+|halffill|  |halffill|  |halffill|  
+    [3]        [4]        [5]    
+| purple |  | green  |  |  red   |  
+|  wave  |  |  wave  |  | ovally |  
+|   3    |  |   2    |  |   2    |  
+|halffill|  |  fill  |  |  fill  |  
+    [6]        [7]        [8]    
+| green  |  | green  |  | green  |  
+| ovally |  | ovally |  |  wave  |  
+|   1    |  |   3    |  |   2    |  
+|halffill|  | empty  |  |halffill|  
+    [9]        [10]        [11]    
+| green  |  | purple |  | purple |  
+|  wave  |  |  wave  |  |  wave  |  
+|   3    |  |   3    |  |   2    |  
+|  fill  |  |  fill  |  | empty  |  
+

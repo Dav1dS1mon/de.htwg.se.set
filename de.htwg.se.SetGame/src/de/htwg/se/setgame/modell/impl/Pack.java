@@ -15,8 +15,8 @@ public class Pack{
 	 * Instance variable
 	 */
 	private ICard pack[] = creatCards();
-	private String pack_url = "/pack/";
-	protected static final String[] FORME = { "ovally", "wave", "balk" };
+	private static String pack_url = "/pack/original/";
+	protected static String[] FORME = { "ovally", "wave", "balk" };
 	protected static final String[] COLORS = { "red", "green", "purple" };
 	protected static final String[] FILL = { "halffill", "fill", "empty" };
 	protected static final int[] NUMBEROFCOMPONET = { 1, 2, 3 };
@@ -54,6 +54,14 @@ public class Pack{
 	
 	public String getPackURL() {
 		return pack_url;
+	}
+	
+	public static void setForm(String[] forms) {
+		FORME = forms;
+	}
+	
+	public static void setPackURL(String url) {
+		pack_url = url;
 	}
 
 	/**
