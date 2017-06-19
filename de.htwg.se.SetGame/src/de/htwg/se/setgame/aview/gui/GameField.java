@@ -153,7 +153,7 @@ public class GameField extends JPanel implements ActionListener {
 		pack = new Pack();
 
 		for (int i = 0; i < pack.getPack().size(); i++) {
-			test.add("/pack/" + i + ".gif");
+			test.add(pack.getPackURL() + i + ".gif");
 		}
 		for (int index1 = 0; index1 < pack.getPack().size(); index1++) {
 			cardToPicture.put(index1, test.get(index1));
